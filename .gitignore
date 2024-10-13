@@ -1,0 +1,50 @@
+# frontend dependencies
+frontend/.pnp
+.pnp.js
+# frontend testing
+frontend/coverage
+# frontend production
+frontend/build
+# frontend Node dependencies
+frontend/node_modules
+# frontend Nuxt dev/build outputs
+frontend/.output
+frontend/.data
+frontend/.nuxt
+frontend/.nitro
+frontend/.cache
+frontend/dist
+
+# backend build output
+backend/target/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS固有のファイル
+# Misc
+.DS_Store
+.fleet
+.idea
+Thumbs.db
+
+# キャッシュファイル
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*
+!.env.example
+
+# エディタ固有の設定ファイル
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
